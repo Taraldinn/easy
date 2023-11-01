@@ -1,0 +1,29 @@
+// color status 
+
+$danger: #F75353;
+$dark : #000000;
+$secondary : #808080;
+$light : #ffffff;
+
+@font-face {
+    font-family: "ClashDisplay";
+    src: url(../fonts/ClashDisplay-Variable.ttf);
+  }
+
+
+
+
+
+  $grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 990px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+  );
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
